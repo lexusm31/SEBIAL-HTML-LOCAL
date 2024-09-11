@@ -1,0 +1,83 @@
+/* Apply Rockwell font to entire body */
+@import url('https://fonts.googleapis.com/css2?family=Rockwell:wght@400;700&display=swap');
+
+body {
+    font-family: 'Rockwell', serif;
+    background-color: #f0fdf0; /* Light green background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered top bar navigation */
+.navbar {
+    background-color: #4caf50; /* Green top bar */
+    overflow: hidden;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Profile picture and welcome text */
+.profile-section {
+    text-align: center;
+    padding: 100px 0 40px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #4caf50; /* Light green border */
+}
+
+.welcome-text {
+    font-size: 32px;
+    color: #4caf50;
+    margin-top: 10px;
+}
+
+/* Content below the profile section */
+.content {
+    padding: 20px;
+    margin-top: 160px; /* Increased margin to avoid overlap with the fixed navbar */
+}
+
+h2 {
+    color: #4caf50;
+    font-size: 28px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+p, li {
+    font-size: 40px;
+}
+
+.section {
+    background-color: #e7ffe7;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
